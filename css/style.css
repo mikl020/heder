@@ -63,8 +63,6 @@ ul{
     display: flex;
     gap: 20px;
     align-items: center;
-    width: 1680;
-    height: 91;
     justify-content: space-between;
 }
 .educ {
@@ -73,6 +71,7 @@ ul{
     padding: 16px 20px;
     margin: 0;
     background-color: #0F172A;
+    text-decoration: none;
     font-family: "Inter";
     font-weight: 500;
     font-style: normal;
