@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Inter";
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../heder/fonts/InterRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../heder/fonts/InterMedium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../heder/fonts/InterBold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #595959;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0 120px;
+}
+ul{
+    list-style: none;
+}
+
+.skin {
+    display: flex;
+    width: 1680px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_link {
+    display: flex;
+    gap: 32px;
+}
+.link {
+    text-decoration: none;
+    color: #64748B;
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.search_button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 1680;
+    height: 91;
+    justify-content: space-between;
+}
+.educ {
+    border: 0;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin: 0;
+    background-color: #0F172A;
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFF;
+    text-align: center;
+}
